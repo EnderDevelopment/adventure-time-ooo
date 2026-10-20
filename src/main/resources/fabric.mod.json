@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure_time_mod",
+  "version": "${mod_version}",
+  "name": "Adventure Time Mod",
+  "description": "Teleports the player into the world of Adventure Time",
+  "authors": ["EnderDevelopment"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.adventuretime.AdventureTimeMod"
+    ]
+  },
+  "mixins": [
+    "adventuretime.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "${minecraft_version}",
+    "fabric-api": "*"
+  }
+}
